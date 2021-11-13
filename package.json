@@ -1,0 +1,27 @@
+{
+  "name": "passwd-haystack",
+  "version": "1.0.0",
+  "description": "Proof of concept on password haystack. Visit https://medium.com/p/14149c23dc1e for more details",
+  "main": "passwd-haystack.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reedsys/passwd-haystack.git"
+  },
+  "keywords": [
+    "nodejs",
+    "password",
+    "haystack"
+  ],
+  "author": "Ares Ng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reedsys/passwd-haystack/issues"
+  },
+  "homepage": "https://github.com/reedsys/passwd-haystack#readme",
+  "dependencies": {
+    "secure-random-password": "^0.2.3"
+  }
+}
